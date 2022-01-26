@@ -35,12 +35,13 @@
       transform: scaleX(0);
       transform-origin: right;
       
-      transition: transform 0.4s;
+      transition: transform 0.8s;
     }
     
     &:hover::before {
       transform: scaleX(1);
       transform-origin: left;
+      transition: transform 0.3s;
     }
 }
 
