@@ -4,7 +4,8 @@ import {
   BsGithub,
   BsDiscord,
   BsTwitch,
-  BsInstagram
+  BsInstagram,
+  BsTwitter
 } from 'react-icons/bs'
 
 import styles from 'styles/home.module.scss'
@@ -20,6 +21,7 @@ export default function Home() {
           content="Site de portifólio de Leonardo Vargas"
         />
       </Head>
+
       <h1 className={styles.title}>LEONARDO VARGAS</h1>
 
       <div className={styles.medias}>
@@ -44,7 +46,15 @@ export default function Home() {
         </a>
         <a
           role="link"
-          href="https://www.twitch.tv/oleovargas"
+          href="https://twitter.com/leuvargas"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsTwitter />
+        </a>
+        <a
+          role="link"
+          href="https://www.twitch.tv/leovargasdev"
           target="_blank"
           rel="noreferrer"
         >
