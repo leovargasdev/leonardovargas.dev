@@ -35,7 +35,7 @@ export default function Home() {
         </a>
         <a
           role="link"
-          href="https://github.com/LeeonardoVargas"
+          href="https://github.com/leovargasdev"
           target="_blank"
           rel="noreferrer"
         >
@@ -46,7 +46,7 @@ export default function Home() {
         </a>
         <a
           role="link"
-          href="https://twitter.com/leuvargas"
+          href="https://twitter.com/leovargasdev"
           target="_blank"
           rel="noreferrer"
         >
